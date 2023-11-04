@@ -1,8 +1,8 @@
 const choices = ["rock","paper","scissors"];
 function  getComputerChoice(){
-    let computerChoice = Math.floor(Math.random() * choices.length);
+    let computerChoiceIndex = Math.floor(Math.random() * choices.length);
 
-    return computerChoice
+    return choices[computerChoiceIndex]
 }
 
 console.log(getComputerChoice())
